@@ -1,4 +1,6 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const HomeScreen = () => {
   return (
@@ -11,7 +13,9 @@ const HomeScreen = () => {
               <h1 className='py-1 text-align' style={{ fontSize: '2rem' }}>
                 Fresh Taste With Every Sip.
               </h1>
-              <button className='btn'>Visit Shop</button>
+              <LinkContainer to='/shop'>
+                <button className='btn'>visit shop</button>
+              </LinkContainer>
             </div>
           </div>
         </div>

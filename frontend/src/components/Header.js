@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
+import { Link as RouteLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
           <h2>The Coffee Company</h2>
           <ul className='row'>
             <li>
-              <Link
+              <RouteLink
                 style={{ cursor: 'pointer' }}
                 to='/'
                 activeClass='active'
@@ -19,14 +20,14 @@ const Header = () => {
                 duration={500}
               >
                 Home
-              </Link>
+              </RouteLink>
             </li>
             <li>
               <Link
                 style={{ cursor: 'pointer' }}
                 to='sec-2'
                 cursor='pointer'
-                activeClass='active'
+                // activeClass='active'
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -39,7 +40,7 @@ const Header = () => {
               <Link
                 style={{ cursor: 'pointer' }}
                 to='sec-3'
-                activeClass='active'
+                // activeClass='active'
                 spy={true}
                 smooth={true}
                 offset={-70}
