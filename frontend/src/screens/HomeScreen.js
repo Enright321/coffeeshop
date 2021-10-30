@@ -98,12 +98,15 @@ const HomeScreen = () => {
       </section>
       <section id='sec-3' className='pyy-3'>
         <div id='locations'>
-          <h2 className='text-align pyy-3'>Locations</h2>
-          <div className='row'>
-            <div className='col' style={{ alignItems: 'flex-start' }}>
+          <h2 className='text-align py-2'>Visit Us!</h2>
+          <div className='row loc-row' style={{ paddingRight: '10rem' }}>
+            <div
+              className='col'
+              style={{ alignItems: 'center', paddingBottom: '1rem' }}
+            >
               <img src='./images/loc1.jpg' alt=''></img>
             </div>
-            <div className='col'>
+            <div className='col text-align'>
               <div className='row'>
                 <h3>1111 Main Road</h3>
               </div>
@@ -112,8 +115,8 @@ const HomeScreen = () => {
               </div>
             </div>
           </div>
-          <div className='row'>
-            <div className='col'>
+          <div className='row loc-row row-2' style={{ paddingLeft: '10rem' }}>
+            <div className='col text-align'>
               <div className='row'>
                 <h3>2222 North Lane</h3>
               </div>
@@ -121,15 +124,18 @@ const HomeScreen = () => {
                 <h5>000-000-0000</h5>
               </div>
             </div>
-            <div className='col' style={{ alignItems: 'flex-end' }}>
+            <div
+              className='col'
+              style={{ alignItems: 'center', paddingBottom: '1rem' }}
+            >
               <img src='./images/loc2.jpg' alt=''></img>
             </div>
           </div>
-          <div className='row'>
-            <div className='col' style={{ alignItems: 'flex-start' }}>
+          <div className='row loc-row' style={{ paddingRight: '7rem' }}>
+            <div className='col' style={{ alignItems: 'center' }}>
               <img src='./images/loc1.jpg' alt=''></img>
             </div>
-            <div className='col'>
+            <div className='col text-align'>
               <div className='row'>
                 <h3>3333 South Street</h3>
               </div>

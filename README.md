@@ -1,3 +1,3 @@
 # Coffee Shop Website
 
-![Alt Text](https://media.giphy.com/media/nr4sOh8TEeYbcNSTyM/giphy.gif)
+![Alt Text](https://media.giphy.com/media/5tqMIUYSkuqvHOtjPM/giphy.gif)

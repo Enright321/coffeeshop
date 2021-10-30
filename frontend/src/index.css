@@ -252,15 +252,6 @@ p {
     width: 50%;
     margin: auto;
   }
-}
-@media (max-width: 500px) {
-  .row {
-    flex-direction: column;
-  }
-  #sec-2 .container,
-  #sec-4 .container {
-    padding: 0;
-  }
   #sec-3 .row {
     flex-direction: column;
     align-items: center !important;
@@ -270,5 +261,20 @@ p {
     align-items: center !important;
     justify-content: center;
     padding-bottom: 1rem;
+  }
+  .loc-row {
+    padding: 0 !important;
+  }
+  .row-2 {
+    flex-direction: column-reverse !important;
+  }
+}
+@media (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+  #sec-2 .container,
+  #sec-4 .container {
+    padding: 0;
   }
 }
