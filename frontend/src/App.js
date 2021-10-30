@@ -9,8 +9,8 @@ const App = () => {
     <Router>
       <Header />
       <main>
-        <Route to='/' component={HomeScreen} exact />
-        {/* <Route to='/shop' component={ShopScreen} exact /> */}
+        {/* <Route to='/shop' exact component={ShopScreen} /> */}
+        <Route to='/' exact component={HomeScreen} />
       </main>
       <Footer />
     </Router>

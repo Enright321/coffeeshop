@@ -1,8 +1,14 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
+import { useHistory } from 'react-router-dom';
 
 const HomeScreen = () => {
+  let history = useHistory();
+  const handleClick = () => {
+    history.push('/shop');
+  };
+
   return (
     <>
       <section id='sec-1' className='py-3'>
@@ -13,9 +19,10 @@ const HomeScreen = () => {
               <h1 className='py-1 text-align' style={{ fontSize: '2rem' }}>
                 Fresh Taste With Every Sip.
               </h1>
-              <LinkContainer to='/shop'>
-                <button className='btn'>visit shop</button>
-              </LinkContainer>
+
+              <button onClick={handleClick} className='btn'>
+                visit shop
+              </button>
             </div>
           </div>
         </div>
